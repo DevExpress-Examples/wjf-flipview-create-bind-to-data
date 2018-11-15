@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [DataStorage.cs](./CS/FlipViewSample/DataStorage.cs)
+* **[MainWindow.xaml](./CS/FlipViewSample/MainWindow.xaml)**
+* [MainWindow.xaml.cs](./CS/FlipViewSample/MainWindow.xaml.cs)
+<!-- default file list end -->
 # How To: Create a FlipView and Populate It with Data
 
 
