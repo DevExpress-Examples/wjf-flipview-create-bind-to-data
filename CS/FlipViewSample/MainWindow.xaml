@@ -4,8 +4,7 @@
         xmlns:dxwui="http://schemas.devexpress.com/winfx/2008/xaml/windowsui" x:Class="FlipViewSample.MainWindow"
         xmlns:dxc="http://schemas.devexpress.com/winfx/2008/xaml/core"
         Title="MainWindow" Height="752" Width="657"
-     xmlns:local="clr-namespace:FlipViewSample"
-        dxc:ThemeManager.ThemeName="Office2013">
+     xmlns:local="clr-namespace:FlipViewSample">
     <Window.DataContext>
         <local:EmployeesData/>
     </Window.DataContext>
