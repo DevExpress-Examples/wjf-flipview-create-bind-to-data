@@ -12,6 +12,11 @@ Namespace FlipViewSample
 	''' Interaction logic for App.xaml
 	''' </summary>
 	Public Partial Class App
-		Inherits Application
-	End Class
+    		Inherits Application
+    		Protected Overrides Sub OnStartup(ByVal e As StartupEventArgs)
+        		ThemeManager.ApplicationThemeName = Theme.Office2013Name
+       		MyBase.OnStartup(e)
+    		End Sub
+End Class
+
 End Namespace
