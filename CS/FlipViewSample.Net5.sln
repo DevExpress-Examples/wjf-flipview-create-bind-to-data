@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlipViewSample", "FlipViewSample\FlipViewSample.csproj", "{10A6D41C-E4FC-4B6A-B420-718812AC094C}"
+# Visual Studio 16
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlipViewSample", "FlipViewSample\FlipViewSample.Net5.csproj", "{10A6D41C-E4FC-4B6A-B420-718812AC094C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
