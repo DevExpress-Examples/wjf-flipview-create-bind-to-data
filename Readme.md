@@ -3,18 +3,24 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E4649)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
+# WPF FlipView - Create and Bind to Data
+
+This example demonstrates how to create a [WPF FlipView](https://docs.devexpress.com/WPF/15021/controls-and-libraries/windows-modern-ui/content-containers/flip-view), bind it to data, and use a template (`ItemContentTemplate`) to visualize data items.
+
+```xaml
+<dxwui:FlipView  ItemsSource="{Binding DataSource}" ItemTemplate="{StaticResource ItemContentTemplate}"/>
+```
+
+![WPF FlipView, DevExpress](https://raw.githubusercontent.com/DevExpress-Examples/wpf-flipview-create-bind-to-data/22.2.2%2B/i/wpf-flipview-devexpress.png)
+
+
+## Files to Review
+
+* [MainWindow.xaml](./CS/FlipViewSample/MainWindow.xaml)
 * [DataStorage.cs](./CS/FlipViewSample/DataStorage.cs)
-* **[MainWindow.xaml](./CS/FlipViewSample/MainWindow.xaml)**
-* [MainWindow.xaml.cs](./CS/FlipViewSample/MainWindow.xaml.cs)
-<!-- default file list end -->
-# How To: Create a FlipView and Populate It with Data
 
 
-<p>This example demonstrates how to create a FlipView, bind it to data and use templates to visualize its items. </p>
+## Documentation
 
-<br/>
-
-
+* [Windows Modern UI](https://docs.devexpress.com/WPF/15018/controls-and-libraries/windows-modern-ui)
